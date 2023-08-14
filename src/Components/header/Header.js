@@ -204,7 +204,7 @@ console.log( 'sdsd'+ typeof(language))
               </Link>
             </li>
             <li style={{marginRight:"10px",fontSize:'12px' ,}} className="nav-item">
-            <a href="https://main.d193lk7ixnr869.amplifyapp.com/"   target="_blank" id="nft" onClick={clicknft} className="nav-link" >
+            <a href="https://quest.guildqb.com/"   target="_blank" id="nft" onClick={clicknft} className="nav-link" >
               QUEST 
            </a>
             </li>
