@@ -204,9 +204,9 @@ console.log( 'sdsd'+ typeof(language))
               </Link>
             </li>
             <li style={{marginRight:"10px",fontSize:'12px' ,}} className="nav-item">
-              <Link to={'/nft'} id="nft" onClick={clicknft} className="nav-link" >
-              Claim 
-              </Link>
+            <a href="https://main.d193lk7ixnr869.amplifyapp.com/"   target="_blank" id="nft" onClick={clicknft} className="nav-link" >
+              QUEST 
+           </a>
             </li>
             <li style={{marginRight:"10px",fontSize:'12px' ,}} className="nav-item">
               <Link to={'/nft'} id="nft" onClick={clicknft} className="nav-link" >
