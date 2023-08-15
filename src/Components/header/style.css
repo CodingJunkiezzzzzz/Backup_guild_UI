@@ -82,6 +82,9 @@ ul.navbar-nav {}
         margin-right: 0;
         margin-left: auto;
     }
+    .navright{
+        margin-right: 0rem !important;
+    }
 }
 
 ul.navbar-nav li.nav-item {
