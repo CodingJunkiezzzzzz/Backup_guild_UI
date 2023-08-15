@@ -210,7 +210,9 @@ const Header = () => {
                   </Link>
                 </li> */}
                 <li style={{ marginRight: "10px", fontSize: '12px', }} className="nav-item ">
-                  <a href="https://quest.guildqb.com/" target="_blank" id="nft" onClick={clicknft} className="nav-link" >
+                  {/* <a href="https://quest.guildqb.com/" target="_blank" id="nft" onClick={clicknft} className="nav-link" > */}
+                  <a href="#"  id="nft" onClick={clicknft} className="nav-link" >
+
                     QUEST
                   </a>
                 </li>
