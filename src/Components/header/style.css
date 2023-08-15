@@ -21,7 +21,9 @@
 
 
 }
-
+.navright{
+    margin-right: 5rem !important;
+}
 .walletbtnmob {
     background: linear-gradient(93.09deg, #8217F4 25.84%, #00D1FF 116.48%);
     border-radius: 32px;
@@ -71,6 +73,8 @@ ul.navbar-nav {}
 .nab {
     margin-right: 180px;
     margin-left: auto;
+    display: flex !important;
+    justify-content: center !important;
 }
 
 @media (max-width: 767px) {

@@ -197,9 +197,9 @@ const Header = () => {
               <Link className="home_link" to="/">
                 <img className="desktoplogo" variant="top" src={Icons} /> </Link>
 
-              <ul className="navbar-nav nab">
+              <ul className="navbar-nav nab text-center">
 
-                <li style={{ marginRight: "10px", fontSize: '12px', }} className="nav-item">
+                {/* <li style={{ marginRight: "10px", fontSize: '12px', }} className="nav-item">
                   <Link to={'/'} id="home" onClick={clickHome} className="nav-link active" aria-current="page">
                     Metaverse
                   </Link>
@@ -208,13 +208,13 @@ const Header = () => {
                   <Link to={'/game'} id="game" onClick={clickGame} className="nav-link" >
                     Token
                   </Link>
-                </li>
-                <li style={{ marginRight: "10px", fontSize: '12px', }} className="nav-item">
+                </li> */}
+                <li style={{ marginRight: "10px", fontSize: '12px', }} className="nav-item ">
                   <a href="https://quest.guildqb.com/" target="_blank" id="nft" onClick={clicknft} className="nav-link" >
                     QUEST
                   </a>
                 </li>
-                <li style={{ marginRight: "10px", fontSize: '12px', }} className="nav-item">
+                {/* <li style={{ marginRight: "10px", fontSize: '12px', }} className="nav-item">
                   <Link to={'/nft'} id="nft" onClick={clicknft} className="nav-link" >
                     OharaiNFT
                   </Link>
@@ -223,10 +223,10 @@ const Header = () => {
                   <a href="https://guildqb.gitbook.io/guild-qb-white-paper-ver1.0/guildqb-overview/guildqbtoha" target="_blank" id="nft" onClick={clicknft} className="nav-link" >
                     Scholarship
                   </a>
-                </li>
-                <li style={{ marginRight: "10px", fontSize: '12px', }} className="nav-item">
+                </li> */}
+                <li style={{ marginRight: "10px", fontSize: '12px', }} className="nav-item navright">
                   <a href="https://guildqb.gitbook.io/guild-qb-white-paper-ver1.0/guildqb-overview/guildqbtoha" target="_blank" id="nft" onClick={clicknft} className="nav-link" >
-                    Dock
+                    Docs
                   </a>
                 </li>
               </ul>
